@@ -1,5 +1,5 @@
 # Sentiment Analysis Chatbot
-#### Video Demo: <URL HERE>
+#### Video Demo: https://youtu.be/9veYppxT4Js
 #### Description:
 
 The Sentiment Analysis Chatbot is a Python-based interactive chat application that analyzes the emotional tone of user messages in real-time. This project was created as a final submission for Harvard's CS50P course, combining natural language processing with user interaction to create an engaging and insightful chatting experience.

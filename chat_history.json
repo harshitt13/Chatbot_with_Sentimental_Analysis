@@ -1,137 +1,32 @@
 [
     {
-        "timestamp": "2024-11-22 23:10:36",
-        "speaker": "user",
-        "message": "not fine enough",
+        "timestamp": "2024-11-23 03:47:30",
+        "speaker": "Harshit",
+        "message": "i am feeling good today",
         "sentiment": {
-            "polarity": -0.10416666666666667,
-            "subjectivity": 0.5,
-            "category": "negative"
-        }
-    },
-    {
-        "timestamp": "2024-11-22 23:10:36",
-        "speaker": "Bot",
-        "message": "I'm sorry you're feeling down. Would you like to talk about it?"
-    },
-    {
-        "timestamp": "2024-11-22 23:10:54",
-        "speaker": "user",
-        "message": "yes i really need someone to talk to",
-        "sentiment": {
-            "polarity": 0.2,
-            "subjectivity": 0.2,
-            "category": "positive"
-        }
-    },
-    {
-        "timestamp": "2024-11-22 23:10:54",
-        "speaker": "Bot",
-        "message": "Sounds like things are going well for you!"
-    },
-    {
-        "timestamp": "2024-11-22 23:13:33",
-        "speaker": "user",
-        "message": "like in real life i am going through things i can't explain i want someone to help me really i don't know how long i can keep hanging like this. you know it's hard sometimes to coup up with things when eevrything is going so fast and you are just getting left behind no matter how much you  try your every single effort looks like going into vain",
-        "sentiment": {
-            "polarity": -0.001455026455026453,
-            "subjectivity": 0.3506613756613757,
-            "category": "negative"
-        }
-    },
-    {
-        "timestamp": "2024-11-22 23:13:33",
-        "speaker": "Bot",
-        "message": "That sounds challenging. How can I help you through this?"
-    },
-    {
-        "timestamp": "2024-11-22 23:14:08",
-        "speaker": "user",
-        "message": "i don't know how longer i will stay here more",
-        "sentiment": {
-            "polarity": 0.5,
-            "subjectivity": 0.5,
+            "polarity": 0.7,
+            "subjectivity": 0.6000000000000001,
             "category": "very positive"
         }
     },
     {
-        "timestamp": "2024-11-22 23:14:08",
-        "speaker": "Bot",
-        "message": "Your enthusiasm is inspiring! Keep that amazing attitude!"
-    },
-    {
-        "timestamp": "2024-11-22 23:14:15",
-        "speaker": "user",
-        "message": "this is so much hard to me",
-        "sentiment": {
-            "polarity": -0.2916666666666667,
-            "subjectivity": 0.5416666666666666,
-            "category": "negative"
-        }
-    },
-    {
-        "timestamp": "2024-11-22 23:14:15",
-        "speaker": "Bot",
-        "message": "That sounds challenging. How can I help you through this?"
-    },
-    {
-        "timestamp": "2024-11-22 23:15:05",
-        "speaker": "user",
-        "message": "no matter how much i try to get up from this the more i feel like i' am drowing into it",
-        "sentiment": {
-            "polarity": 0.35,
-            "subjectivity": 0.35,
-            "category": "very positive"
-        }
-    },
-    {
-        "timestamp": "2024-11-22 23:15:05",
-        "speaker": "Bot",
-        "message": "Your enthusiasm is inspiring! Keep that amazing attitude!"
-    },
-    {
-        "timestamp": "2024-11-22 23:16:45",
-        "speaker": "user",
-        "message": "i don't show that how i am feeling most of the i hide my pain sorrow suffering and everyhtong behind a fake smile",
-        "sentiment": {
-            "polarity": -0.02500000000000001,
-            "subjectivity": 0.5750000000000001,
-            "category": "negative"
-        }
-    },
-    {
-        "timestamp": "2024-11-22 23:16:45",
-        "speaker": "Bot",
-        "message": "I'm sorry you're feeling down. Would you like to talk about it?"
-    },
-    {
-        "timestamp": "2024-11-22 23:17:11",
-        "speaker": "user",
-        "message": "i don't know much longer i can stay here things are not going fine",
-        "sentiment": {
-            "polarity": 0.30833333333333335,
-            "subjectivity": 0.35,
-            "category": "very positive"
-        }
-    },
-    {
-        "timestamp": "2024-11-22 23:17:11",
+        "timestamp": "2024-11-23 03:47:30",
         "speaker": "Bot",
         "message": "That's wonderful to hear! Your positive energy is contagious!"
     },
     {
-        "timestamp": "2024-11-22 23:18:00",
-        "speaker": "user",
-        "message": "okay that it for today thanks for the help",
+        "timestamp": "2024-11-23 03:47:56",
+        "speaker": "Harshit",
+        "message": "i will finish my internship projects today",
         "sentiment": {
-            "polarity": 0.35,
-            "subjectivity": 0.35,
-            "category": "very positive"
+            "polarity": 0.0,
+            "subjectivity": 0.0,
+            "category": "neutral"
         }
     },
     {
-        "timestamp": "2024-11-22 23:18:00",
+        "timestamp": "2024-11-23 03:47:56",
         "speaker": "Bot",
-        "message": "That's wonderful to hear! Your positive energy is contagious!"
+        "message": "I understand. Would you like to tell me more about that?"
     }
 ]

@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "text",
-      "version": 259,
-      "versionNonce": 1936918614,
+      "version": 262,
+      "versionNonce": 1936134621,
       "isDeleted": false,
       "id": "llBpUoCHT7CD1oGxlgrmR",
       "fillStyle": "solid",
@@ -26,7 +26,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1732299119596,
+      "updated": 1732318022615,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -37,12 +37,12 @@
       "containerId": null,
       "originalText": "Hi everyone who's watching this & David. Basically this is the final project for CS50's Introduction to Programming with Python.  ",
       "lineHeight": 1.25,
-      "baseline": 17
+      "baseline": 18
     },
     {
       "type": "text",
-      "version": 299,
-      "versionNonce": 648943799,
+      "version": 301,
+      "versionNonce": 665929331,
       "isDeleted": false,
       "id": "7SRxayd8LoUpNkqv-JTuV",
       "fillStyle": "solid",
@@ -62,7 +62,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1732298907488,
+      "updated": 1732318022629,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -73,12 +73,12 @@
       "containerId": null,
       "originalText": "Project Title - Sentiment Analysis Chatbot\nName - Harshit Kushwaha\nGitHub username - harshitt13\nEdx Username - harshitt13\nCity - Bhopal\nCountry - India\nDate - 23rd Nov 2024",
       "lineHeight": 1.2,
-      "baseline": 229
+      "baseline": 228
     },
     {
       "type": "text",
-      "version": 531,
-      "versionNonce": 2002833418,
+      "version": 534,
+      "versionNonce": 1539493437,
       "isDeleted": false,
       "id": "NbS5nWACU98bJEjC49IPy",
       "fillStyle": "solid",
@@ -98,7 +98,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1732299119606,
+      "updated": 1732318022632,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -109,7 +109,7 @@
       "containerId": null,
       "originalText": "Thank You everyone for watching the video till the end & yea especially I would like to Thank's David for helping us out thorugh out this course.",
       "lineHeight": 1.25,
-      "baseline": 17
+      "baseline": 18
     }
   ],
   "appState": {
