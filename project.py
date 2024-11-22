@@ -1,14 +1,15 @@
 from textblob import TextBlob
 import sys
+import random
 from termcolor import colored
 import json
 from datetime import datetime
 
 def analyze_sentiment(text):
-    """
-    Analyze the sentiment of input text.
-    Returns a dictionary containing polarity, subjectivity, and category.
-    """
+
+    # Analyze the sentiment of input text.
+    # Returns a dictionary containing polarity, subjectivity, and category.
+
     if not isinstance(text, str) or not text.strip():
         raise ValueError("Input must be a non-empty string")
     
@@ -35,32 +36,53 @@ def analyze_sentiment(text):
     }
 
 def get_response(sentiment_category):
-    """
-    Generate appropriate response based on sentiment category.
-    Returns a string containing the chatbot's response.
-    """
+    
+    # Generate appropriate response based on sentiment category.
+    # Returns a string containing the chatbot's response.
+    
     if not isinstance(sentiment_category, str):
         raise ValueError("Sentiment category must be a string")
     
     responses = {
-        "very positive": "That's wonderful to hear! Your positive energy is contagious!",
-        "positive": "I'm glad you're feeling good! Keep that positive spirit!",
-        "neutral": "I understand. Would you like to tell me more about that?",
-        "negative": "I'm sorry you're feeling down. Would you like to talk about it?",
-        "very negative": "I hear that you're going through a difficult time. I'm here to listen and support you."
+        "very positive": [
+            "That's wonderful to hear! Your positive energy is contagious!",
+            "Wow, you seem to be having a great day! Tell me more!",
+            "Your enthusiasm is inspiring! Keep that amazing attitude!"
+        ],
+        "positive": [
+            "I'm glad you're feeling good! Keep that positive spirit!",
+            "Nice to hear something positive! What's making you happy?",
+            "Sounds like things are going well for you!"
+        ],
+        "neutral": [
+            "I understand. Would you like to tell me more about that?",
+            "Interesting. Can you elaborate on your thoughts?",
+            "Sometimes neutral feelings can be complex. What's on your mind?"
+        ],
+        "negative": [
+            "I'm sorry you're feeling down. Would you like to talk about it?",
+            "That sounds challenging. How can I help you through this?",
+            "It seems like you're going through a tough time. I'm here to listen."
+        ],
+        "very negative": [
+            "I hear that you're going through a very difficult time. I'm here to listen and support you.",
+            "This sounds incredibly tough. Would you like to share more about what's troubling you?",
+            "I'm truly sorry you're experiencing such intense negative emotions. Can I help in any way?"
+        ]
     }
+    
     
     sentiment_category = sentiment_category.lower()
     if sentiment_category not in responses:
         raise ValueError("Invalid sentiment category")
         
-    return responses[sentiment_category]
+    return random.choice(responses[sentiment_category])
 
 def save_conversation(conversation_history, filename="chat_history.json"):
-    """
-    Save the conversation history to a JSON file.
-    Returns True if successful, raises an exception if not.
-    """
+    
+    # Save the conversation history to a JSON file.
+    # Returns True if successful, raises an exception if not.
+    
     if not isinstance(conversation_history, list):
         raise ValueError("Conversation history must be a list")
     
@@ -72,10 +94,10 @@ def save_conversation(conversation_history, filename="chat_history.json"):
         raise IOError(f"Error saving conversation: {str(e)}")
 
 def format_message(speaker, message, sentiment=None):
-    """
-    Format a chat message with timestamp and optional sentiment.
-    Returns a dictionary containing the formatted message.
-    """
+    
+    # Format a chat message with timestamp and optional sentiment.
+    # Returns a dictionary containing the formatted message.
+    
     if not isinstance(speaker, str) or not isinstance(message, str):
         raise ValueError("Speaker and message must be strings")
     
@@ -104,7 +126,7 @@ def main():
     if not name:
         name = "User"
     
-    print(colored(f"\nHello {name}! Type 'quit' or 'exit' to end the conversation.", "cyan"))
+    print(colored(f"\nHello {name}! Type 'quit' or 'exit' or 'bye' or 'goodbye' to end the conversation.", "cyan"))
     print(colored("\nBot: How are you feeling today?", "green"))
     
     while True:
