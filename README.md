@@ -1,5 +1,5 @@
 # Sentiment Analysis Chatbot
-[![wakatime](https://wakatime.com/badge/github/harshitt13/Chatbot_with_Sentimental_Analysis.svg)](https://wakatime.com/badge/github/harshitt13/Chatbot_with_Sentimental_Analysis)
+
 #### Video Demo: https://youtu.be/9veYppxT4Js
 #### Description:
 
